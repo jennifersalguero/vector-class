@@ -65,5 +65,8 @@ def angle(a: Vector, b: Vector, degrees=True) -> float:
         return math.degrees(a)
     else:
         return a
+def __div__(self/other):
+    ""Divides self and other""
+  return self/other
 
 
